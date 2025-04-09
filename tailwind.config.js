@@ -4,7 +4,14 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'open-sans': ['OpenSans-Regular'],
+        'open-sans-medium': ['OpenSans-Medium'],
+        'open-sans-semibold': ['OpenSans-SemiBold'],
+        'open-sans-bold': ['OpenSans-Bold'],
+      },
+    },
   },
   plugins: [],
 };
